@@ -230,7 +230,7 @@ export default {
       <div class="sender--info has-tooltip" data-original-title="null">
         <woot-thumbnail
           v-tooltip.top="{
-            content: $t('LABEL_MGMT.SUGGESTIONS.POWERED_BY'),
+            // content: $t('LABEL_MGMT.SUGGESTIONS.POWERED_BY'),
             delay: { show: 600, hide: 0 },
             hideOnClick: true,
           }"

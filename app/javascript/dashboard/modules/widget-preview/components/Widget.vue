@@ -157,14 +157,14 @@ export default {
               class="max-w-2.5 max-h-2.5"
               :src="globalConfig.logoThumbnail"
             />
-            <span>
+            <!-- <span>
               {{
                 useInstallationName(
                   $t('INBOX_MGMT.WIDGET_BUILDER.BRANDING_TEXT'),
                   globalConfig.installationName
                 )
               }}
-            </span>
+            </span> -->
           </a>
         </div>
       </div>

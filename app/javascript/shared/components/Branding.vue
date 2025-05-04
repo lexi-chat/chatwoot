@@ -60,9 +60,9 @@ export default {
         :alt="globalConfig.brandName"
         :src="globalConfig.logoThumbnail"
       />
-      <span>
+      <!-- <span>
         {{ useInstallationName($t('POWERED_BY'), globalConfig.brandName) }}
-      </span>
+      </span> -->
     </a>
   </div>
   <div v-else class="p-3" />
